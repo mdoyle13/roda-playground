@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    agoo (2.5.0)
+    rack (2.0.5)
+    roda (3.11.0)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  agoo
+  roda
+
+BUNDLED WITH
+   1.16.4

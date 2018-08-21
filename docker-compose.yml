@@ -1,0 +1,6 @@
+app:
+  environment:
+    RACK_ENV: production
+  build: .
+  ports:
+    - "9292:9292"
