@@ -35,9 +35,6 @@ class App < Roda
   end
 end
 
-Iodine.threads = 16
-Iodine.workers = 4
-
 run App.freeze.app
 
 # start app -- puma -e development -t 16:16 config.ru
